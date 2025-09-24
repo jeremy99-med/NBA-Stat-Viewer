@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\nhl-APIs\\playerSearchNHL.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:back-end\\nhl-APIs\\playerSearchNHL.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\nfl-APIs\\playerSearchNFL.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:back-end\\nfl-APIs\\playerSearchNFL.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\nba-APIs\\playerSearchNBA.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:back-end\\nba-APIs\\playerSearchNBA.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\mlb-APIs\\playerSearchMLB.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:back-end\\mlb-APIs\\playerSearchMLB.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\.env.example||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:back-end\\.env.example||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:back-end\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:back-end\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:back-end\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "playerSearchMLB.py",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\mlb-APIs\\playerSearchMLB.py",
+              "RelativeDocumentMoniker": "back-end\\mlb-APIs\\playerSearchMLB.py",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\mlb-APIs\\playerSearchMLB.py",
+              "RelativeToolTip": "back-end\\mlb-APIs\\playerSearchMLB.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-09-23T02:41:26.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "playerSearchNHL.py",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\nhl-APIs\\playerSearchNHL.py",
+              "RelativeDocumentMoniker": "back-end\\nhl-APIs\\playerSearchNHL.py",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\nhl-APIs\\playerSearchNHL.py",
+              "RelativeToolTip": "back-end\\nhl-APIs\\playerSearchNHL.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-09-23T02:39:06.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "playerSearchNFL.py",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\nfl-APIs\\playerSearchNFL.py",
+              "RelativeDocumentMoniker": "back-end\\nfl-APIs\\playerSearchNFL.py",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\nfl-APIs\\playerSearchNFL.py",
+              "RelativeToolTip": "back-end\\nfl-APIs\\playerSearchNFL.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-09-23T02:37:19.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\README.md",
+              "RelativeDocumentMoniker": "back-end\\README.md",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\README.md",
+              "RelativeToolTip": "back-end\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-09-23T02:06:42.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\.gitignore",
+              "RelativeDocumentMoniker": "back-end\\.gitignore",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\.gitignore",
+              "RelativeToolTip": "back-end\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-23T02:06:31.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "requirements.txt",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\requirements.txt",
+              "RelativeDocumentMoniker": "back-end\\requirements.txt",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\requirements.txt",
+              "RelativeToolTip": "back-end\\requirements.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-23T02:06:08.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": ".env.example",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\.env.example",
+              "RelativeDocumentMoniker": "back-end\\.env.example",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\.env.example",
+              "RelativeToolTip": "back-end\\.env.example",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-23T02:05:49.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "playerSearchNBA.py",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\nba-APIs\\playerSearchNBA.py",
+              "RelativeDocumentMoniker": "back-end\\nba-APIs\\playerSearchNBA.py",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\jeremy99-med\\NBA-Stat-Viewer\\back-end\\nba-APIs\\playerSearchNBA.py",
+              "RelativeToolTip": "back-end\\nba-APIs\\playerSearchNBA.py",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-09-23T01:50:25.045Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

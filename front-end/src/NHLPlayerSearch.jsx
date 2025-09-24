@@ -59,24 +59,26 @@ function NHLPlayerSearch() {
 
       <div className="players">
         {players.map((p) => (
-          <div key={p.id} className="Player border p-2 my-2">
-            <div className="Player-Title">
+          <div key={p.id} className={`player-card nhl-${p.teamAbbreviation} border p-2 my-2`}>
+            <div className="player-title">
               <h2>{p.firstName} {p.lastName}</h2>
             </div>
-            <div>
-              Born: {p.birth_date} in {p.birth_place}
-            </div>
-            <div>
-              Team: {p.team} ({p.teamabbreviation})
-            </div>
-            <div>
-              Height/Weight: {p.height} inch., {p.weight} lbs
-            </div>
-            <div>
-              Position: {p.position}
-            </div>
-            <div>
-              Shoots/Catches: {p.shoots_catches}
+            <div className="player-attributes">
+              <div>
+                Born: {p.birth_date} in {p.birth_place}
+              </div>
+              <div>
+                Team: {p.team} ({p.teamabbreviation})
+              </div>
+              <div>
+                Height/Weight: {p.height} inch., {p.weight} lbs
+              </div>
+              <div>
+                Position: {p.position}
+              </div>
+              <div>
+                Shoots/Catches: {p.shoots_catches}
+              </div>
             </div>
           </div>
         ))}

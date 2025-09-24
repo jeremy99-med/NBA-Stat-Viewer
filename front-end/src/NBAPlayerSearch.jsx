@@ -62,30 +62,32 @@ function NBAPlayerSearch() {
 
       <div className="players">
         {players.map((p) => (
-          <div key={p.id} className="Player border p-2 my-2">
-            <div className="Player-Title">
+          <div key={p.id} className={`player-card nba-${p.teamAbbreviation} border p-2 my-2`}>
+            <div className="player-title">
               <h2>{p.firstName} {p.lastName}</h2>
             </div>
-            <div>
-              Team: {p.team} ({p.teamabbreviation})
-            </div>
-            <div>
-              Height/Weight: {p.height}, {p.weight} lbs
-            </div>
-            <div>
-              Position: {p.position}
-            </div>
-            <div>
-              Jersey Number: {p.jerseyNumber}
-            </div>
-            <div>
-              School: {p.college}
-            </div>
-            <div>
-              Country: {p.country}
-            </div>
-            <div>
-              Drafted: {p.draftYear} (R{p.draftRound},P{p.draftNumber})
+            <div className="player-attributes">
+              <div>
+                Team: {p.team} ({p.teamabbreviation})
+              </div>
+              <div>
+                Height/Weight: {p.height}, {p.weight} lbs
+              </div>
+              <div>
+                Position: {p.position}
+              </div>
+              <div>
+                Jersey Number: {p.jerseyNumber}
+              </div>
+              <div>
+                School: {p.college}
+              </div>
+              <div>
+                Country: {p.country}
+              </div>
+              <div>
+                Drafted: {p.draftYear} (R{p.draftRound},P{p.draftNumber})
+              </div>
             </div>
           </div>
         ))}

@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './css/App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AppMenu from './AppMenu.jsx';
 import PlayerSearch from "./PlayerSearch";

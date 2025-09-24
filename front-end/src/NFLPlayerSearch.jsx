@@ -59,24 +59,26 @@ function NFLPlayerSearch() {
 
       <div className="players">
         {players.map((p) => (
-          <div key={p.id} className="Player border p-2 my-2">
-            <div className="Player-Title">
+          <div key={p.id} className={`player-card nfl-${p.teamAbbreviation} border p-2 my-2`}>
+            <div className="player-title">
               <h2>{p.firstName} {p.lastName}</h2>
             </div>
-            <div>
-              Team: {p.team} ({p.teamabbreviation})
-            </div>
-            <div>
-              Height/Weight: {p.height}, {p.weight} lbs
-            </div>
-            <div>
-              Position: {p.position} ({p.position_abbreviation})
-            </div>
-            <div>
-              Jersey Number: {p.jerseyNumber}
-            </div>
-            <div>
-              School: {p.college}
+            <div className="player-attributes">
+              <div>
+                Team: {p.team} ({p.teamabbreviation})
+              </div>
+              <div>
+                Height/Weight: {p.height}, {p.weight} lbs
+              </div>
+              <div>
+                Position: {p.position} ({p.position_abbreviation})
+              </div>
+              <div>
+                Jersey Number: {p.jerseyNumber}
+              </div>
+              <div>
+                School: {p.college}
+              </div>
             </div>
           </div>
         ))}

@@ -23,31 +23,39 @@ function PlayerSearch() {
   
   return (
     <div>
-        <div className="mb-4 flex gap-2">
-            <button
-                onClick={() => setSelectedSport("NFL")}
-                className={`bg-blue-500 text-white px-4 py-2 rounded`}
-            >
+        <div className="player-search-sports mb-4 flex gap-2">
+            <div className="player-search-nfl">
+                <button
+                    onClick={() => setSelectedSport("NFL")}
+                    className={`player-search-nfl-button bg-blue-500 text-white px-4 py-2 rounded`}
+                >
                 NFL
             </button>
-            <button
-                onClick={() => setSelectedSport("NBA")}
-                className={`bg-blue-500 text-white px-4 py-2 rounded`}
-            >
-                NBA
-            </button>
-            <button
-                onClick={() => setSelectedSport("MLB")}
-                className={`bg-blue-500 text-white px-4 py-2 rounded`}
-            >
+            </div>
+            <div className="player-search-nba">
+                <button
+                    onClick={() => setSelectedSport("NBA")}
+                    className={`player-search-nba-button bg-green-500 text-white px-4 py-2 rounded`}
+                >
+                    NBA
+                </button>
+            </div>
+            <div className="player-search-mlb">
+                <button
+                    onClick={() => setSelectedSport("MLB")}
+                    className={`player-search-mlb-button bg-red-500 text-white px-4 py-2 rounded`}
+                >
                 MLB
-            </button>
-            <button
-                onClick={() => setSelectedSport("NHL")}
-                className={`bg-blue-500 text-white px-4 py-2 rounded`}
-            >
+                </button>
+            </div>
+            <div className="player-search-nhl">
+                <button
+                    onClick={() => setSelectedSport("NHL")}
+                    className={`player-search-nhl-button bg-yellow-500 text-white px-4 py-2 rounded`}
+                >
                 NHL
-            </button>
+                </button>
+            </div>
         </div>
         <div>
             {render_sport_search()}

@@ -8,8 +8,10 @@ import PlayerSearch from "./PlayerSearch";
 function App() {
    return (
    <Router>
-      <div className="">
-        <h1 className="">J's Sports App</h1>
+      <div>
+        <div className="App-title">
+          <h1 >J's Sports App</h1>
+        </div>
         <Routes>
           {/* Home menu page */}
           <Route path="/" element={<AppMenu />} />

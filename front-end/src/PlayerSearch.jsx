@@ -24,37 +24,41 @@ function PlayerSearch() {
   return (
     <div>
         <div className="player-search-sports mb-4 flex gap-2">
-            <div className="player-search-nfl">
-                <button
+            <button
                     onClick={() => setSelectedSport("NFL")}
                     className={`player-search-nfl-button bg-blue-500 text-white px-4 py-2 rounded`}
                 >
                 NFL
             </button>
-            </div>
-            <div className="player-search-nba">
-                <button
+            <button
                     onClick={() => setSelectedSport("NBA")}
                     className={`player-search-nba-button bg-green-500 text-white px-4 py-2 rounded`}
                 >
-                    NBA
-                </button>
-            </div>
-            <div className="player-search-mlb">
-                <button
+                NBA
+            </button>
+            <button
                     onClick={() => setSelectedSport("MLB")}
                     className={`player-search-mlb-button bg-red-500 text-white px-4 py-2 rounded`}
                 >
                 MLB
-                </button>
+            </button>
+            <button
+                onClick={() => setSelectedSport("NHL")}
+                className={`player-search-nhl-button bg-yellow-500 text-white px-4 py-2 rounded`}
+            >
+                NHL
+            </button>
+            <div className="player-search-nfl">
+                
+            </div>
+            <div className="player-search-nba">
+                
+            </div>
+            <div className="player-search-mlb">
+                
             </div>
             <div className="player-search-nhl">
-                <button
-                    onClick={() => setSelectedSport("NHL")}
-                    className={`player-search-nhl-button bg-yellow-500 text-white px-4 py-2 rounded`}
-                >
-                NHL
-                </button>
+                
             </div>
         </div>
         <div>

@@ -24,41 +24,42 @@ function PlayerSearch() {
   return (
     <div>
         <div className="player-search-sports mb-4 flex gap-2">
-            <button
+            <div className="player-search-sports-header">
+                <h2>Select a sport:</h2>
+            </div>
+            <div className="player-search-sports-options">
+                <div className="player-search-sport-nfl">
+                <button
                     onClick={() => setSelectedSport("NFL")}
-                    className={`player-search-nfl-button bg-blue-500 text-white px-4 py-2 rounded`}
-                >
-                NFL
-            </button>
-            <button
-                    onClick={() => setSelectedSport("NBA")}
-                    className={`player-search-nba-button bg-green-500 text-white px-4 py-2 rounded`}
-                >
-                NBA
-            </button>
-            <button
-                    onClick={() => setSelectedSport("MLB")}
-                    className={`player-search-mlb-button bg-red-500 text-white px-4 py-2 rounded`}
-                >
-                MLB
-            </button>
-            <button
-                onClick={() => setSelectedSport("NHL")}
-                className={`player-search-nhl-button bg-yellow-500 text-white px-4 py-2 rounded`}
-            >
-                NHL
-            </button>
-            <div className="player-search-nfl">
+                    className={`player-search-sport-button bg-blue-500 text-white px-4 py-2 rounded`}
+                ><span>NFL</span>
                 
+                </button>
             </div>
-            <div className="player-search-nba">
-                
+            <div className="player-search-sport-nba">
+                <button
+                        onClick={() => setSelectedSport("NBA")}
+                        className={`player-search-sport-button bg-green-500 text-white px-4 py-2 rounded`}
+                    >
+                    <span>NBA</span>
+                </button>
             </div>
-            <div className="player-search-mlb">
-                
+            <div className="player-search-sport-mlb">
+                <button
+                        onClick={() => setSelectedSport("MLB")}
+                        className={`player-search-sport-button bg-red-500 text-white px-4 py-2 rounded`}
+                    >
+                    <span>MLB</span>
+                </button>
             </div>
-            <div className="player-search-nhl">
-                
+            <div className="player-search-sport-nhl">
+                <button
+                    onClick={() => setSelectedSport("NHL")}
+                    className={`player-search-sport-button bg-yellow-500 text-white px-4 py-2 rounded`}
+                >
+                    <span>NHL</span>
+                </button>
+                </div>
             </div>
         </div>
         <div>

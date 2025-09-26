@@ -45,9 +45,10 @@ function MLBPlayerSearch() {
   };
 
   return (
-    <div className="p-4">
+    <div className="mlb-ps-header">
       <h1 className="text-xl font-bold">MLB Player Search</h1>
-      <input
+      <div className="search-bar-ps">
+        <input
         type="text"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
@@ -57,6 +58,8 @@ function MLBPlayerSearch() {
       <button onClick={handleSearch} className="bg-blue-500 text-white px-4 py-2">
         Search
       </button>
+      </div>
+      
 
       <div className="players">
         {players.map((p) => (

@@ -6,7 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url(../images/star-bg.png);
-  background-size: cover;
+  background-position: center;      
+  background-attachment: fixed;     
+  background-size:cover;
 }
 
 code {
@@ -24,30 +26,74 @@ code {
     text-shadow: 0 0 5px #664ccc, 0 0 10px #ee7777, 0 0 15px #000000, 0 0 20px #5c00ff, 0 0 30px #580be2, 0 0 40px #7223ff, 0 0 55px #b30eff, 0 0 75px #8d53fe;
 }
 
-.activity-menu {
+.activity-menu,.about-app, .player-search-sports {
   color: #5426ff;
   margin: 20px 30px;
   padding: 20px 10px;
   display: block;
-  border: 3px outset #451BDE;
-  border-radius: 5px 40px 5px 40px;
+  width: 300px;
   background-color:#1b1236;
+  min-width: fit-content;
+  justify-self:center;
+  box-sizing: border-box;
 }
 
-.activity-choices {
+.mlb-ps-header, .nba-ps-header, .nfl-ps-header, .nhl-ps-header{
+  background-image: linear-gradient(144deg, #1b1236, #201b31 50%, #0e0c30);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    min-width: fit-content;
+}
+
+.mlb-ps-header h1, .nba-ps-header h1, .nfl-ps-header h1, .nhl-ps-header h1{
+  color:floralwhite;
+  width:350px;
+}
+
+.activity-menu:hover,.about-app:hover, .player-search-sports:hover{
+  -webkit-box-shadow:0px 0px 33px 0px rgba(69,27,222,0.35);
+-moz-box-shadow: 0px 0px 33px 0px rgba(69,27,222,0.35);
+box-shadow: 0px 0px 33px 0px rgba(69,27,222,0.35);
+}
+
+.activity-menu {
+  border: 23px outset #451BDE;
+  border-radius: 5px 40px 5px 40px;
+}
+
+.about-app {
+  border-radius: 40px 5px 40px 5px !important;
+  border: 23px inset #451BDE;
+}
+
+.player-search-sports {
+  border-radius:40px;
+  border: 23px outset #451BDE;
+}
+
+.activity-choices,.about-app-description {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
-    text-align:center;
-    justify-items:center;
+    width:500px;
 }
 
-.activity-title {
+.activity-choices {
+  text-align:center;
+  justify-items:center;
+}
+
+.about-app-description {
+  color:white;
+}
+
+.activity-title,.about-app-title {
     margin: 0px 10px;
     padding: 5px;
 }
 
-.activity-choice-ps-button {
+.activity-choice-ps-button,.player-search-sport-button {
   align-items: center;
   background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#1000eb);
   border: 0;
@@ -70,12 +116,51 @@ code {
   cursor: pointer;
 }
 
+.player-search-sport-nba .player-search-sport-button {
+  background-image: linear-gradient(144deg,#f24c36, #f37d42 50%,#d5ba1f);
+  box-shadow: rgb(230, 123, 47) 0 15px 30px -5px;
+}
+
+.player-search-sport-nfl .player-search-sport-button {
+  background-image: linear-gradient(144deg,#04fde0, #3634c9 50%,#4d0ecd);
+  box-shadow: rgb(83, 219, 171) 0 15px 30px -5px;
+}
+
+.player-search-sport-mlb .player-search-sport-button {
+  background-image: linear-gradient(144deg,#e57f71, #f25757 50%,#ef2323);
+  box-shadow: rgb(240, 107, 107) 0 15px 30px -5px;
+}
+
+.player-search-sport-nhl .player-search-sport-button {
+  background-image: linear-gradient(144deg,#baf54c, #77c03b 50%,#21e835);
+  box-shadow: rgb(156, 218, 95) 0 15px 30px -5px;
+}
+
 .activity-choice-ps-button:active,
-.activity-choice-ps-button:hover {
+.activity-choice-ps-button:hover,
+.player-search-sport-button:active,
+.player-search-sport-button:hover {
   outline: 0;
 }
 
-.activity-choice-ps-button span {
+.player-search-sports-header, .player-search-sports-options {
+    padding: 5px 20px;
+    margin: 0px 5px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.player-search-sports-options {
+    justify-items: center;
+}
+
+.player-search-sports-options button {
+  margin: 10px;
+}
+
+.activity-choice-ps-button,.player-search-sport-button span {
   background-color: rgb(5, 6, 45);
   padding: 16px 24px;
   border-radius: 6px;
@@ -84,6 +169,44 @@ code {
   transition: 300ms;
 }
 
-.activity-choice-ps-button:hover span {
+.activity-choice-ps-button:hover span,
+.player-search-sport-button:hover span {
   background: none;
+  font-weight:bold;
+}
+
+.search-bar-ps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.search-bar-ps input {
+  
+    margin: 5%;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: mediumslateblue;
+    border:black;
+    min-width: 350px;
+    color: floralwhite;
+    font-size: 20px;
+}
+
+.search-bar-ps button {
+    margin: 5%;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: mediumslateblue;
+    border: #000000;
+    color: floralwhite;
+    min-width: 80px;
+    font-size: 20px;
+}
+
+
+.search-bar-ps input::placeholder{
+  color:floralwhite;
+
 }

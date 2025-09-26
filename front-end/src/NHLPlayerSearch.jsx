@@ -44,9 +44,10 @@ function NHLPlayerSearch() {
   };
 
   return (
-    <div className="p-4">
+    <div className="nhl-ps-header">
       <h1 className="text-xl font-bold">NHL Player Search</h1>
-      <input
+      <div className="search-bar-ps">
+        <input
         type="text"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
@@ -56,6 +57,8 @@ function NHLPlayerSearch() {
       <button onClick={handleSearch} className="bg-blue-500 text-white px-4 py-2">
         Search
       </button>
+      </div>
+      
 
       <div className="players">
         {players.map((p) => (

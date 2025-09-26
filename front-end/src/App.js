@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './css/App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import AppMenu from './AppMenu.jsx';
+import Home from './home';
 import PlayerSearch from "./PlayerSearch";
 
 
@@ -14,7 +14,7 @@ function App() {
         </div>
         <Routes>
           {/* Home menu page */}
-          <Route path="/" element={<AppMenu />} />
+          <Route path="/" element={<Home />} />
 
           {/* Player search page */}
           <Route path="/player-search" element={<PlayerSearch />} />

@@ -210,3 +210,522 @@ box-shadow: 0px 0px 33px 0px rgba(69,27,222,0.35);
   color:floralwhite;
 
 }
+
+
+.players {
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+}
+
+.player-card {
+    width: 250px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+
+.player-attributes {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* Atlanta Hawks */
+.nba-ATL { background-color: #E03A3E; border-color: #C1D32F; color: #fff; }
+.nba-ATL h2 { color: #C1D32F; }
+
+/* Boston Celtics */
+.nba-BOS { background-color: #007A33; border-color: #BA9653; color: #fff; }
+.nba-BOS h2 { color: #BA9653; }
+
+/* Brooklyn Nets */
+.nba-BKN { background-color: #000000; border-color: #FFFFFF; color: #fff; }
+.nba-BKN h2 { color: #CCCCCC; }
+
+/* Charlotte Hornets */
+.nba-CHA { background-color: #1D1160; border-color: #00788C; color: #fff; }
+.nba-CHA h2 { color: #A1A1A4; }
+
+/* Chicago Bulls */
+.nba-CHI { background-color: #CE1141; border-color: #000000; color: #fff; }
+.nba-CHI h2 { color: #000000; }
+
+/* Cleveland Cavaliers */
+.nba-CLE { background-color: #6F263D; border-color: #FFB81C; color: #fff; }
+.nba-CLE h2 { color: #041E42; }
+
+/* Dallas Mavericks */
+.nba-DAL { background-color: #00538C; border-color: #002B5E; color: #fff; }
+.nba-DAL h2 { color: #B8C4CA; }
+
+/* Denver Nuggets */
+.nba-DEN { background-color: #0E2240; border-color: #FEC524; color: #fff; }
+.nba-DEN h2 { color: #8B2131; }
+
+/* Detroit Pistons */
+.nba-DET { background-color: #C8102E; border-color: #1D42BA; color: #fff; }
+.nba-DET h2 { color: #1D42BA; }
+
+/* Golden State Warriors */
+.nba-GSW { background-color: #1D428A; border-color: #FFC72C; color: #fff; }
+.nba-GSW h2 { color: #FFC72C; }
+
+/* Houston Rockets */
+.nba-HOU { background-color: #CE1141; border-color: #C4CED4; color: #fff; }
+.nba-HOU h2 { color: #C4CED4; }
+
+/* Indiana Pacers */
+.nba-IND { background-color: #002D62; border-color: #FDBB30; color: #fff; }
+.nba-IND h2 { color: #FDBB30; }
+
+/* LA Clippers */
+.nba-LAC { background-color: #C8102E; border-color: #1D428A; color: #fff; }
+.nba-LAC h2 { color: #1D428A; }
+
+/* Los Angeles Lakers */
+.nba-LAL { background-color: #552583; border-color: #FDB927; color: #fff; }
+.nba-LAL h2 { color: #FDB927; }
+
+/* Memphis Grizzlies */
+.nba-MEM { background-color: #5D76A9; border-color: #12173F; color: #fff; }
+.nba-MEM h2 { color: #F5B112; }
+
+/* Miami Heat */
+.nba-MIA { background-color: #98002E; border-color: #F9A01B; color: #fff; }
+.nba-MIA h2 { color: #000000; }
+
+/* Milwaukee Bucks */
+.nba-MIL { background-color: #00471B; border-color: #EEE1C6; color: #fff; }
+.nba-MIL h2 { color: #EEE1C6; }
+
+/* Minnesota Timberwolves */
+.nba-MIN { background-color: #0C2340; border-color: #236192; color: #fff; }
+.nba-MIN h2 { color: #78BE20; }
+
+/* New Orleans Pelicans */
+.nba-NOP { background-color: #0C2340; border-color: #C8102E; color: #fff; }
+.nba-NOP h2 { color: #85714D; }
+
+/* New York Knicks */
+.nba-NYK { background-color: #006BB6; border-color: #F58426; color: #fff; }
+.nba-NYK h2 { color: #F58426; }
+
+/* Oklahoma City Thunder */
+.nba-OKC { background-color: #007AC1; border-color: #EF3B24; color: #fff; }
+.nba-OKC h2 { color: #FDBB30; }
+
+/* Orlando Magic */
+.nba-ORL { background-color: #0077C0; border-color: #C4CED4; color: #fff; }
+.nba-ORL h2 { color: #000000; }
+
+/* Philadelphia 76ers */
+.nba-PHI { background-color: #006BB6; border-color: #ED174C; color: #fff; }
+.nba-PHI h2 { color: #002B5C; }
+
+/* Phoenix Suns */
+.nba-PHX { background-color: #1D1160; border-color: #E56020; color: #fff; }
+.nba-PHX h2 { color: #63727A; }
+
+/* Portland Trail Blazers */
+.nba-POR { background-color: #E03A3E; border-color: #000000; color: #fff; }
+.nba-POR h2 { color: #C4CED4; }
+
+/* Sacramento Kings */
+.nba-SAC { background-color: #5A2D81; border-color: #63727A; color: #fff; }
+.nba-SAC h2 { color: #A1A1A4; }
+
+/* San Antonio Spurs */
+.nba-SAS { background-color: #000000; border-color: #C4CED4; color: #fff; }
+.nba-SAS h2 { color: #C4CED4; }
+
+/* Toronto Raptors */
+.nba-TOR { background-color: #CE1141; border-color: #000000; color: #fff; }
+.nba-TOR h2 { color: #A1A1A4; }
+
+/* Utah Jazz */
+.nba-UTA { background-color: #002B5C; border-color: #00471B; color: #fff; }
+.nba-UTA h2 { color: #F9A01B; }
+
+/* Washington Wizards */
+.nba-WAS { background-color: #002B5C; border-color: #E31837; color: #fff; }
+.nba-WAS h2 { color: #C4CED4; }
+
+/* Arizona Cardinals */
+.nfl-ARI { background-color: #97233F; border-color: #000000; color: #fff; }
+.nfl-ARI h2 { color: #FFB612; }
+
+/* Atlanta Falcons */
+.nfl-ATL { background-color: #A71930; border-color: #000000; color: #fff; }
+.nfl-ATL h2 { color: #A5ACAF; }
+
+/* Baltimore Ravens */
+.nfl-BAL { background-color: #241773; border-color: #000000; color: #fff; }
+.nfl-BAL h2 { color: #9E7C0C; }
+
+/* Buffalo Bills */
+.nfl-BUF { background-color: #00338D; border-color: #C60C30; color: #fff; }
+.nfl-BUF h2 { color: #C60C30; }
+
+/* Carolina Panthers */
+.nfl-CAR { background-color: #0085CA; border-color: #101820; color: #fff; }
+.nfl-CAR h2 { color: #BFC0BF; }
+
+/* Chicago Bears */
+.nfl-CHI { background-color: #0B162A; border-color: #C83803; color: #fff; }
+.nfl-CHI h2 { color: #C83803; }
+
+/* Cincinnati Bengals */
+.nfl-CIN { background-color: #FB4F14; border-color: #000000; color: #fff; }
+.nfl-CIN h2 { color: #000000; }
+
+/* Cleveland Browns */
+.nfl-CLE { background-color: #311D00; border-color: #FF3C00; color: #fff; }
+.nfl-CLE h2 { color: #FF3C00; }
+
+/* Dallas Cowboys */
+.nfl-DAL { background-color: #041E42; border-color: #869397; color: #fff; }
+.nfl-DAL h2 { color: #7F9695; }
+
+/* Denver Broncos */
+.nfl-DEN { background-color: #002244; border-color: #FB4F14; color: #fff; }
+.nfl-DEN h2 { color: #FB4F14; }
+
+/* Detroit Lions */
+.nfl-DET { background-color: #0076B6; border-color: #B0B7BC; color: #fff; }
+.nfl-DET h2 { color: #B0B7BC; }
+
+/* Green Bay Packers */
+.nfl-GB { background-color: #203731; border-color: #FFB612; color: #fff; }
+.nfl-GB h2 { color: #FFB612; }
+
+/* Houston Texans */
+.nfl-HOU { background-color: #03202F; border-color: #A71930; color: #fff; }
+.nfl-HOU h2 { color: #A71930; }
+
+/* Indianapolis Colts */
+.nfl-IND { background-color: #002C5F; border-color: #A2AAAD; color: #fff; }
+.nfl-IND h2 { color: #A2AAAD; }
+
+/* Jacksonville Jaguars */
+.nfl-JAX { background-color: #006778; border-color: #9F792C; color: #fff; }
+.nfl-JAX h2 { color: #101820; }
+
+/* Kansas City Chiefs */
+.nfl-KC { background-color: #E31837; border-color: #FFB81C; color: #fff; }
+.nfl-KC h2 { color: #FFB81C; }
+
+/* Las Vegas Raiders */
+.nfl-LV { background-color: #000000; border-color: #A5ACAF; color: #fff; }
+.nfl-LV h2 { color: #A5ACAF; }
+
+/* Los Angeles Chargers */
+.nfl-LAC { background-color: #0080C6; border-color: #FFC20E; color: #fff; }
+.nfl-LAC h2 { color: #FFC20E; }
+
+/* Los Angeles Rams */
+.nfl-LAR { background-color: #003594; border-color: #FFD100; color: #fff; }
+.nfl-LAR h2 { color: #FFD100; }
+
+/* Miami Dolphins */
+.nfl-MIA { background-color: #008E97; border-color: #FC4C02; color: #fff; }
+.nfl-MIA h2 { color: #FC4C02; }
+
+/* Minnesota Vikings */
+.nfl-MIN { background-color: #4F2683; border-color: #FFC62F; color: #fff; }
+.nfl-MIN h2 { color: #FFC62F; }
+
+/* New England Patriots */
+.nfl-NE { background-color: #002244; border-color: #C60C30; color: #fff; }
+.nfl-NE h2 { color: #B0B7BC; }
+
+/* New Orleans Saints */
+.nfl-NO { background-color: #101820; border-color: #D3BC8D; color: #fff; }
+.nfl-NO h2 { color: #D3BC8D; }
+
+/* New York Giants */
+.nfl-NYG { background-color: #0B2265; border-color: #A71930; color: #fff; }
+.nfl-NYG h2 { color: #A71930; }
+
+/* New York Jets */
+.nfl-NYJ { background-color: #125740; border-color: #000000; color: #fff; }
+.nfl-NYJ h2 { color: #FFFFFF; }
+
+/* Philadelphia Eagles */
+.nfl-PHI { background-color: #004C54; border-color: #A5ACAF; color: #fff; }
+.nfl-PHI h2 { color: #ACC0C6; }
+
+/* Pittsburgh Steelers */
+.nfl-PIT { background-color: #101820; border-color: #FFB612; color: #fff; }
+.nfl-PIT h2 { color: #FFB612; }
+
+/* San Francisco 49ers */
+.nfl-SF { background-color: #AA0000; border-color: #B3995D; color: #fff; }
+.nfl-SF h2 { color: #B3995D; }
+
+/* Seattle Seahawks */
+.nfl-SEA { background-color: #002244; border-color: #69BE28; color: #fff; }
+.nfl-SEA h2 { color: #69BE28; }
+
+/* Tampa Bay Buccaneers */
+.nfl-TB { background-color: #D50A0A; border-color: #FF7900; color: #fff; }
+.nfl-TB h2 { color: #0A0A08; }
+
+/* Tennessee Titans */
+.nfl-TEN { background-color: #0C2340; border-color: #4B92DB; color: #fff; }
+.nfl-TEN h2 { color: #C8102E; }
+
+/* Washington Commanders */
+.nfl-WSH { background-color: #5A1414; border-color: #FFB612; color: #fff; }
+.nfl-WSH h2 { color: #FFB612; }
+
+/* Arizona Diamondbacks */
+.mlb-ARI { background-color: #A71930; border-color: #000000; color: #fff; }
+.mlb-ARI h2 { color: #E3D4AD; }
+
+/* Atlanta Braves */
+.mlb-ATL { background-color: #13274F; border-color: #CE1141; color: #fff; }
+.mlb-ATL h2 { color: #CE1141; }
+
+/* Baltimore Orioles */
+.mlb-BAL { background-color: #DF4601; border-color: #000000; color: #fff; }
+.mlb-BAL h2 { color: #000000; }
+
+/* Boston Red Sox */
+.mlb-BOS { background-color: #BD3039; border-color: #0D2B56; color: #fff; }
+.mlb-BOS h2 { color: #0D2B56; }
+
+/* Chicago Cubs */
+.mlb-CHC { background-color: #0E3386; border-color: #CC3433; color: #fff; }
+.mlb-CHC h2 { color: #CC3433; }
+
+/* Chicago White Sox */
+.mlb-CWS { background-color: #27251F; border-color: #C4CED4; color: #fff; }
+.mlb-CWS h2 { color: #C4CED4; }
+
+/* Cincinnati Reds */
+.mlb-CIN { background-color: #C6011F; border-color: #000000; color: #fff; }
+.mlb-CIN h2 { color: #000000; }
+
+/* Cleveland Guardians */
+.mlb-CLE { background-color: #0C2340; border-color: #E31937; color: #fff; }
+.mlb-CLE h2 { color: #E31937; }
+
+/* Colorado Rockies */
+.mlb-COL { background-color: #33006F; border-color: #C4CED4; color: #fff; }
+.mlb-COL h2 { color: #000000; }
+
+/* Detroit Tigers */
+.mlb-DET { background-color: #0C2340; border-color: #FA4616; color: #fff; }
+.mlb-DET h2 { color: #FA4616; }
+
+/* Houston Astros */
+.mlb-HOU { background-color: #002D62; border-color: #EB6E1F; color: #fff; }
+.mlb-HOU h2 { color: #EB6E1F; }
+
+/* Kansas City Royals */
+.mlb-KC { background-color: #004687; border-color: #BD9B60; color: #fff; }
+.mlb-KC h2 { color: #BD9B60; }
+
+/* Los Angeles Angels */
+.mlb-LAA { background-color: #BA0021; border-color: #003263; color: #fff; }
+.mlb-LAA h2 { color: #003263; }
+
+/* Los Angeles Dodgers */
+.mlb-LAD { background-color: #005A9C; border-color: #EF3E42; color: #fff; }
+.mlb-LAD h2 { color: #EF3E42; }
+
+/* Miami Marlins */
+.mlb-MIA { background-color: #00A3E0; border-color: #EF3340; color: #fff; }
+.mlb-MIA h2 { color: #000000; }
+
+/* Milwaukee Brewers */
+.mlb-MIL { background-color: #0A2351; border-color: #B6922E; color: #fff; }
+.mlb-MIL h2 { color: #B6922E; }
+
+/* Minnesota Twins */
+.mlb-MIN { background-color: #002B5C; border-color: #D31145; color: #fff; }
+.mlb-MIN h2 { color: #D31145; }
+
+/* New York Mets */
+.mlb-NYM { background-color: #002D72; border-color: #FF5910; color: #fff; }
+.mlb-NYM h2 { color: #FF5910; }
+
+/* New York Yankees */
+.mlb-NYY { background-color: #132448; border-color: #C4CED4; color: #fff; }
+.mlb-NYY h2 { color: #C4CED4; }
+
+/* Oakland Athletics */
+.mlb-OAK { background-color: #003831; border-color: #EFB21E; color: #fff; }
+.mlb-OAK h2 { color: #EFB21E; }
+
+/* Philadelphia Phillies */
+.mlb-PHI { background-color: #E81828; border-color: #002D72; color: #fff; }
+.mlb-PHI h2 { color: #002D72; }
+
+/* Pittsburgh Pirates */
+.mlb-PIT { background-color: #27251F; border-color: #FDB827; color: #fff; }
+.mlb-PIT h2 { color: #FDB827; }
+
+/* San Diego Padres */
+.mlb-SD { background-color: #2F241D; border-color: #FFC425; color: #fff; }
+.mlb-SD h2 { color: #FFC425; }
+
+/* San Francisco Giants */
+.mlb-SF { background-color: #FD5A1E; border-color: #27251F; color: #fff; }
+.mlb-SF h2 { color: #27251F; }
+
+/* Seattle Mariners */
+.mlb-SEA { background-color: #0C2C56; border-color: #005C5C; color: #fff; }
+.mlb-SEA h2 { color: #C4CED4; }
+
+/* St. Louis Cardinals */
+.mlb-STL { background-color: #C41E3A; border-color: #0C2340; color: #fff; }
+.mlb-STL h2 { color: #FEDB00; }
+
+/* Tampa Bay Rays */
+.mlb-TB { background-color: #092C5C; border-color: #8FBCE6; color: #fff; }
+.mlb-TB h2 { color: #F5D130; }
+
+/* Texas Rangers */
+.mlb-TEX { background-color: #003278; border-color: #C0111F; color: #fff; }
+.mlb-TEX h2 { color: #C0111F; }
+
+/* Toronto Blue Jays */
+.mlb-TOR { background-color: #134A8E; border-color: #1D2D5C; color: #fff; }
+.mlb-TOR h2 { color: #E8291C; }
+
+/* Washington Nationals */
+.mlb-WSH { background-color: #AB0003; border-color: #14225A; color: #fff; }
+.mlb-WSH h2 { color: #14225A; }
+
+/* Anaheim Ducks */
+.nhl-ANA { background-color: #FC4C02; border-color: #000000; color: #fff; }
+.nhl-ANA h2 { color: #B5985A; }
+
+/* Arizona Coyotes */
+.nhl-ARI { background-color: #8C2633; border-color: #E2D6B5; color: #fff; }
+.nhl-ARI h2 { color: #E2D6B5; }
+
+/* Boston Bruins */
+.nhl-BOS { background-color: #FFB81C; border-color: #000000; color: #000; }
+.nhl-BOS h2 { color: #000000; }
+
+/* Buffalo Sabres */
+.nhl-BUF { background-color: #002654; border-color: #FCB514; color: #fff; }
+.nhl-BUF h2 { color: #A6A9AB; }
+
+/* Calgary Flames */
+.nhl-CGY { background-color: #C8102E; border-color: #F1BE48; color: #fff; }
+.nhl-CGY h2 { color: #F1BE48; }
+
+/* Carolina Hurricanes */
+.nhl-CAR { background-color: #CC0000; border-color: #000000; color: #fff; }
+.nhl-CAR h2 { color: #A2AAAD; }
+
+/* Chicago Blackhawks */
+.nhl-CHI { background-color: #CF0A2C; border-color: #000000; color: #fff; }
+.nhl-CHI h2 { color: #FFD100; }
+
+/* Colorado Avalanche */
+.nhl-COL { background-color: #6F263D; border-color: #236192; color: #fff; }
+.nhl-COL h2 { color: #A2AAAD; }
+
+/* Columbus Blue Jackets */
+.nhl-CBJ { background-color: #002654; border-color: #CE1126; color: #fff; }
+.nhl-CBJ h2 { color: #A4A9AD; }
+
+/* Dallas Stars */
+.nhl-DAL { background-color: #006847; border-color: #8F8F8C; color: #fff; }
+.nhl-DAL h2 { color: #A2AAAD; }
+
+/* Detroit Red Wings */
+.nhl-DET { background-color: #CE1126; border-color: #FFFFFF; color: #fff; }
+.nhl-DET h2 { color: #FFFFFF; }
+
+/* Edmonton Oilers */
+.nhl-EDM { background-color: #041E42; border-color: #FF4C00; color: #fff; }
+.nhl-EDM h2 { color: #FF4C00; }
+
+/* Florida Panthers */
+.nhl-FLA { background-color: #041E42; border-color: #C8102E; color: #fff; }
+.nhl-FLA h2 { color: #B9975B; }
+
+/* Los Angeles Kings */
+.nhl-LA { background-color: #111111; border-color: #A2AAAD; color: #fff; }
+.nhl-LA h2 { color: #A2AAAD; }
+
+/* Minnesota Wild */
+.nhl-MIN { background-color: #154734; border-color: #A6192E; color: #fff; }
+.nhl-MIN h2 { color: #EAAA00; }
+
+/* Montreal Canadiens */
+.nhl-MTL { background-color: #AF1E2D; border-color: #192168; color: #fff; }
+.nhl-MTL h2 { color: #192168; }
+
+/* Nashville Predators */
+.nhl-NSH { background-color: #FFB81C; border-color: #041E42; color: #000; }
+.nhl-NSH h2 { color: #041E42; }
+
+/* New Jersey Devils */
+.nhl-NJ { background-color: #CE1126; border-color: #000000; color: #fff; }
+.nhl-NJ h2 { color: #A2AAAD; }
+
+/* New York Islanders */
+.nhl-NYI { background-color: #00539B; border-color: #F47D30; color: #fff; }
+.nhl-NYI h2 { color: #F47D30; }
+
+/* New York Rangers */
+.nhl-NYR { background-color: #0038A8; border-color: #CE1126; color: #fff; }
+.nhl-NYR h2 { color: #FFFFFF; }
+
+/* Ottawa Senators */
+.nhl-OTT { background-color: #C52032; border-color: #000000; color: #fff; }
+.nhl-OTT h2 { color: #CBA052; }
+
+/* Philadelphia Flyers */
+.nhl-PHI { background-color: #F74902; border-color: #000000; color: #fff; }
+.nhl-PHI h2 { color: #A2AAAD; }
+
+/* Pittsburgh Penguins */
+.nhl-PIT { background-color: #FCB514; border-color: #000000; color: #000; }
+.nhl-PIT h2 { color: #000000; }
+
+/* San Jose Sharks */
+.nhl-SJ { background-color: #006D75; border-color: #EA7200; color: #fff; }
+.nhl-SJ h2 { color: #000000; }
+
+/* Seattle Kraken */
+.nhl-SEA { background-color: #001628; border-color: #99D9D9; color: #fff; }
+.nhl-SEA h2 { color: #355464; }
+
+/* St. Louis Blues */
+.nhl-STL { background-color: #002F87; border-color: #FCB514; color: #fff; }
+.nhl-STL h2 { color: #FCB514; }
+
+/* Tampa Bay Lightning */
+.nhl-TB { background-color: #002868; border-color: #FFFFFF; color: #fff; }
+.nhl-TB h2 { color: #FFFFFF; }
+
+/* Toronto Maple Leafs */
+.nhl-TOR { background-color: #00205B; border-color: #FFFFFF; color: #fff; }
+.nhl-TOR h2 { color: #FFFFFF; }
+
+/* Vancouver Canucks */
+.nhl-VAN { background-color: #00205B; border-color: #00843D; color: #fff; }
+.nhl-VAN h2 { color: #A2AAAD; }
+
+/* Vegas Golden Knights */
+.nhl-VGK { background-color: #B4975A; border-color: #333F48; color: #fff; }
+.nhl-VGK h2 { color: #333F48; }
+
+/* Washington Capitals */
+.nhl-WSH { background-color: #041E42; border-color: #C8102E; color: #fff; }
+.nhl-WSH h2 { color: #C8102E; }
+
+/* Winnipeg Jets */
+.nhl-WPG { background-color: #041E42; border-color: #004C97; color: #fff; }
+.nhl-WPG h2 { color: #AC162C; }
